@@ -5,6 +5,8 @@
 #   - https://gist.github.com/starise/e90d981b5f9e1e39f632
 #   - https://github.com/roots/bedrock-ansible
 
+require 'yaml'
+
 Vagrant.require_version '>= 1.5.1'
 
 Vagrant.configure('2') do |config|
